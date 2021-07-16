@@ -1,0 +1,83 @@
+.widgets {
+  flex: 0.3;
+}
+
+.widgets__input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.widgets__input > input {
+  border: none;
+  background-color: var(--twitter-background);
+  outline: none;
+}
+
+.widgets__searchIcon {
+  color: gray;
+}
+
+.widgets__widgetContainer {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.widgets__widgetContainer > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+.gear{
+  display: flex;
+  align-items: center;
+  border-bottom: 0.2px solid #f5f8fa;
+}
+.gear1{
+  float: right;
+  color: var(--twitter-color);
+}
+.gear1:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+  cursor: pointer;
+}
+.Trending_Worldwide{
+  border-bottom: 1px solid #f5f8fa ;
+  padding-left: 1rem;
+  height: 7rem;
+  align-items: center;
+}
+.Trending_Worldwide > div {
+  margin: 6px 0;
+}
+.Trending_Show{
+  font-size: 1rem;
+  color: lightslategray;
+}
+.tag{
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.tweet_people
+{
+  font-size: 1rem;
+  color: lightslategray;
+}
+.Tweets{
+  font-size: 1rem;
+  color: lightslategray;
+}
+.See_more{
+  color: var(--twitter-color);
+  margin-top: 15px;
+  font-size: 1.1rem;
+}

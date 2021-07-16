@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+.register-wrap{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.register-container{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    width: 500px;
+    justify-content: center;
+    margin-top: 10px;
+    height: 99vh;
+}
+.register-logo {
+    margin-left: 120px;
+    width: 80px;
+    height: 70px;
+    margin-top: 20px;
+    
+}
+.register-head{
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+.register-inp1{
+    height: 65px;
+    width: 350px;
+}
+.register-inp4{
+    align-items: center;
+    margin-left: 50px;
+    width: 250px;
+}
+.register-inp5{
+    color: #4ba1f2;
+    text-decoration: none;
+    margin-left: 110px;
+}
+.register-inp5:hover{
+    text-decoration: underline;
+}

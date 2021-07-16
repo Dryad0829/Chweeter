@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.che{
+    width: 80px;
+    height: 70px;
+    align-self: center;
+    margin-left: 110px;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.continent{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contentt{
+    justify-content: center;
+    align-items: center;
+}
+
+.contentt input{
+    align-self: center;
+}
+
+.heading{
+    padding-bottom: 20px;
+}
+.number
+{
+    align-items: center;
+    
+}
+.link1{
+    color: #4ba1f2;
+    text-decoration: none;
+    margin-left: -10px;
+    padding-top: 10px;
+}
+.number .one{
+    width: 330px;
+    text-align: center;  
+}
+
+.number .two{
+    width: 330px;
+    text-align: center;   
+    margin-bottom: 20px;
+}
+.number .btn{
+    height: 45px;
+    border-radius: 25px;
+    justify-content: center;
+    width: 330px;
+    text-align: center;  
+    color: white;
+    font-weight: bold;
+}
+.wrapcolor{
+   font-size: 15px;
+}
+.forgot{
+    color: #4ba1f2;
+    text-decoration: none;
+    margin-left: 110px;
+    padding-top: 10px;
+}
+
+.sign{
+justify-content: center;
+}
+.link{
+    color: #4ba1f2;
+    text-decoration: none;
+}
+.link:hover{
+    
+    text-decoration: underline;
+}

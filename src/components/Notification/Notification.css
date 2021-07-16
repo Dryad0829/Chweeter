@@ -1,0 +1,28 @@
+.notif-feed {
+    flex: 0.5;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+  }
+  
+  .notif-feed::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .notif-feed {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .notif-feed__header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+  }
+  .notif-gear1{
+      float: right;
+  }
+  

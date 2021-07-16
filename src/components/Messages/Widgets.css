@@ -1,0 +1,53 @@
+.message-widgets {
+  flex: 0.45;
+}
+
+.message-widgets__input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.widgets__input > input {
+  border: none;
+  background-color: var(--twitter-background);
+  outline: none;
+}
+
+.widgets__searchIcon {
+  color: gray;
+}
+
+.widgets__widgetContainer {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.widgets__widgetContainer > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+.gear{
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+.gear1{
+  float: right;
+  color: var(--twitter-color);
+}
+.gear1:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+  cursor: pointer;
+}

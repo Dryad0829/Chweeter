@@ -1,0 +1,74 @@
+.user-post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 10px;
+}
+
+.user-post__body {
+  flex: 1;
+  padding: 10px;
+}
+
+.user-post__avatar {
+  padding: 20px;
+}
+
+.user-post__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.user-post_img {
+  width: 630px;
+  height: 400px;
+  border-radius: 20px;
+  margin-left: -40px;
+}
+.user-post__badge {
+  font-size: 14px !important;
+  color: var(--twitter-color);
+}
+.user-username {
+  color: gray;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.user-post__headerText > h3 {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.user-post__headerSpecial {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+}
+
+.user-post__headerDescription {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.user-heart:hover {
+  cursor: pointer;
+  color: rgb(231, 114, 134);
+  transition: color 100ms ease-out;
+}
+.user-retweet:hover {
+  cursor: pointer;
+  color: rgb(115, 230, 104);
+  transition: color 100ms ease-out;
+}
+.user-share:hover {
+  cursor: pointer;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+}
+.user-reply:hover {
+  cursor: pointer;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+}
